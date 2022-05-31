@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+* {
+  margin:0; padding:0;
+}
+header {
+  background-color: rgb(85, 127, 127);
+  color: aliceblue;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+header .headline{
+  font-size: 32px;
+}
+.nav-list {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.slots {
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  float: left;
+  text-align: center;
+  padding: 20px;
+}
+
+.contents{
+  background-color: rgb(255, 253, 239);
+  position:fixed;
+  height: 600px;
+  color: rgb(90, 145, 145);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container{
+  margin-top: 80px!important;
+  margin-left: 450px!important;
+  margin: 20px;
+  position:absolute;
+  background-color: rgb(255, 253, 239);
+  font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+  font-weight: bold;
+}
+
+#button{
+  position: relative;
+  top: 200px;
+  left: -305px;
+  color:rgb(255, 253, 239);
+  background-color: rgb(90, 145, 145);
+  border: 2px solid rgb(90, 145, 145);
+  border-width: 10px;  
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 2px 2px rgb(109, 109, 109);
+  display: inline-block;
+  user-select: none;
+}
+
+#button:hover{
+  opacity: 0.6;
+  box-shadow: none;
+  transform: translate3d(0, 4px, 0);
+}
+
+#slots_a{
+font-size: 24px;
+margin: 20px;
+}
+
+#slots_b{
+  font-size: 24px;
+  margin: 20px;
+}
+
+#slots_c{
+  font-size: 24px;
+  margin: 20px;
+}
+
+.slots .wrapper {
+  width: 46px;
+  top: 10px;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .container{
+    margin-top: 80px!important;
+    margin-left: 450px!important;
+    margin: 20px;
+    position:absolute;
+    background-color: rgb(255, 253, 239);
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    font-weight: bold;
+  }  
+}
+@media screen and (max-width: 1200px) {
+  .container{
+    margin-top: 80px!important;
+    margin-left: 300px!important;
+    margin: 20px;
+    position:absolute;
+    background-color: rgb(255, 253, 239);
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    font-weight: bold;
+  }  
+}
+@media screen and (max-width: 1000px) {
+  .container{
+    margin-top: 80px!important;
+    margin-left: 200px!important;
+    margin: 20px;
+    position:absolute;
+    background-color: rgb(255, 253, 239);
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    font-weight: bold;
+  }  
+}
+@media screen and (max-width: 768px) {
+  .container{
+    margin-top: 80px!important;
+    margin-left: 100px!important;
+    margin: 20px;
+    position:absolute;
+    background-color: rgb(255, 253, 239);
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    font-weight: bold;
+  }  
+}
+@media screen and (max-width: 700px) {
+  .container{
+    margin-top: 80px!important;
+    margin-left: 0px!important;
+    margin: 20px;
+    position:absolute;
+    background-color: rgb(255, 253, 239);
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    font-weight: bold;
+  }  
+}
+@media screen and (max-width: 650px) {
+  }
+
+/*********************************
+	フッターの設定
+*********************************/
+#footerWrap{
+  width:100%;
+  position: absolute;/*←相対位置*/
+  padding-bottom: 30px;/*←footerの高さ*/
+  box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+}
+footer {
+  width: 100%; /* フッター幅を指定*/
+  height: 30px; 
+  margin: 0 auto;
+  background-color: rgb(85, 127, 127);
+  color: #fff;
+  text-align: center;
+  padding: 3px 0;
+  position: fixed;
+  right: 0px;
+  bottom: 0; 
+}
+footer a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #fff;
+  opacity: 0.5;
+}
+footer ul {
+  float: right;
+  margin-right: 20px;
+  list-style: none;
+}
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
