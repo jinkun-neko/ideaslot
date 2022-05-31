@@ -142,6 +142,21 @@ margin: 20px;
     font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
     font-weight: bold;
   }  
+  #button{
+    position: relative;
+    position: relative;
+    top: 20px;
+    left: -10px;
+    color:rgb(255, 253, 239);
+    background-color: rgb(90, 145, 145);
+    border: 2px solid rgb(90, 145, 145);
+    border-width: 10px;  
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 2px 2px rgb(109, 109, 109);
+    display: inline-block;
+    user-select: none;
+  }
 }
 @media screen and (max-width: 700px) {
   .container{
